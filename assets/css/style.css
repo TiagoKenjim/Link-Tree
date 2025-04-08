@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Inter", serif;
+}
+#Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: hsl(0, 0%, 8%);
+}
+.card {
+  max-width: 90%;
+  max-width: 90%;
+  min-width: 310px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  padding: 1.5rem;
+}
+
+.avatar-image {
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  margin: auto;
+}
+
+h2 {
+  margin: 2rem 0 0rem 0;
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+p.legend{
+  font-size: .7rem;
+  color: hsl(75, 94%, 57%);
+  object-fit: cover;
+}
+
+.country {
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+}
+
+.link-tree {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn-primary {
+    font-weight: 700;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  background-color: hsl(0, 0%, 20%);
+}
+
+.btn-primary:hover {
+  background-color: hsl(75, 94%, 57%);
+  box-shadow: hsl(75, 94%, 57%) 0px 0px 20px ;
+  color: hsl(0, 0%, 20%);
+}
+
+.attribution {
+  padding: 1em;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 580px) {
+  .card {
+    padding: 1.5rem;
+    max-width: 310px;
+    box-sizing: border-box;
+  }
+}
